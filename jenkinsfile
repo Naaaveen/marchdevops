@@ -6,7 +6,7 @@ steps
 {
 sh 'pwd'
 sh 'whoami'
-sh 'echo "hello world my new changes"'
+sh 'echo "hello world my new changes11"'
 sh 'free -m'
 }
 }
