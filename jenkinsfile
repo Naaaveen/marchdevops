@@ -1,5 +1,14 @@
-#!/bin/bash
-pwd
-whoami
-echo "hello world"
-free -m
+pipeline {
+agent any
+stages {
+stage('first stage') {
+steps
+{
+sh 'pwd'
+sh 'whoami'
+sh 'echo "hello world"'
+sh 'free -m'
+}
+}
+}
+}
